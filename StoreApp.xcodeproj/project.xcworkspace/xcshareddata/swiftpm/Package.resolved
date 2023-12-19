@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "netswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MrSkwiggs/Netswift.git",
+      "state" : {
+        "revision" : "2b45629ae5f4859e62207b1d4064e08bd870e689",
+        "version" : "1.1.1"
+      }
+    }
+  ],
+  "version" : 2
+}

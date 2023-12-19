@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE3BB9032B3160BF006AEB90 /* StoreAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB9022B3160BF006AEB90 /* StoreAppApp.swift */; };
-		CE3BB9052B3160BF006AEB90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB9042B3160BF006AEB90 /* ContentView.swift */; };
+		CE3BB9032B3160BF006AEB90 /* StoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB9022B3160BF006AEB90 /* StoreApp.swift */; };
 		CE3BB9072B3160C2006AEB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3BB9062B3160C2006AEB90 /* Assets.xcassets */; };
 		CE3BB90A2B3160C2006AEB90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3BB9092B3160C2006AEB90 /* Preview Assets.xcassets */; };
+		CE3BB9122B316201006AEB90 /* Netswift in Frameworks */ = {isa = PBXBuildFile; productRef = CE3BB9112B316201006AEB90 /* Netswift */; };
+		CE3BB9142B316271006AEB90 /* DetailPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB9132B316271006AEB90 /* DetailPageView.swift */; };
+		CE3BB9162B31628A006AEB90 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB9152B31628A006AEB90 /* MainView.swift */; };
+		CE3BB9182B31629A006AEB90 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB9172B31629A006AEB90 /* MainViewModel.swift */; };
+		CE3BB91A2B3162A7006AEB90 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB9192B3162A7006AEB90 /* HeaderView.swift */; };
+		CE3BB91C2B3162BB006AEB90 /* CardBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB91B2B3162BB006AEB90 /* CardBalanceView.swift */; };
+		CE3BB91E2B3162C8006AEB90 /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB91D2B3162C8006AEB90 /* CategoryCardView.swift */; };
+		CE3BB9202B3162D8006AEB90 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB91F2B3162D8006AEB90 /* ProductCardView.swift */; };
+		CE3BB9222B3162EB006AEB90 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB9212B3162EB006AEB90 /* ProductModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE3BB8FF2B3160BF006AEB90 /* StoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE3BB9022B3160BF006AEB90 /* StoreAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreAppApp.swift; sourceTree = "<group>"; };
-		CE3BB9042B3160BF006AEB90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE3BB9022B3160BF006AEB90 /* StoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreApp.swift; sourceTree = "<group>"; };
 		CE3BB9062B3160C2006AEB90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3BB9092B3160C2006AEB90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE3BB9132B316271006AEB90 /* DetailPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageView.swift; sourceTree = "<group>"; };
+		CE3BB9152B31628A006AEB90 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CE3BB9172B31629A006AEB90 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CE3BB9192B3162A7006AEB90 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		CE3BB91B2B3162BB006AEB90 /* CardBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBalanceView.swift; sourceTree = "<group>"; };
+		CE3BB91D2B3162C8006AEB90 /* CategoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
+		CE3BB91F2B3162D8006AEB90 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		CE3BB9212B3162EB006AEB90 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3BB9122B316201006AEB90 /* Netswift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +67,15 @@
 		CE3BB9012B3160BF006AEB90 /* StoreApp */ = {
 			isa = PBXGroup;
 			children = (
-				CE3BB9022B3160BF006AEB90 /* StoreAppApp.swift */,
-				CE3BB9042B3160BF006AEB90 /* ContentView.swift */,
+				CE3BB9022B3160BF006AEB90 /* StoreApp.swift */,
+				CE3BB9132B316271006AEB90 /* DetailPageView.swift */,
+				CE3BB9152B31628A006AEB90 /* MainView.swift */,
+				CE3BB9172B31629A006AEB90 /* MainViewModel.swift */,
+				CE3BB9192B3162A7006AEB90 /* HeaderView.swift */,
+				CE3BB91B2B3162BB006AEB90 /* CardBalanceView.swift */,
+				CE3BB91D2B3162C8006AEB90 /* CategoryCardView.swift */,
+				CE3BB91F2B3162D8006AEB90 /* ProductCardView.swift */,
+				CE3BB9212B3162EB006AEB90 /* ProductModel.swift */,
 				CE3BB9062B3160C2006AEB90 /* Assets.xcassets */,
 				CE3BB9082B3160C2006AEB90 /* Preview Content */,
 			);
@@ -83,6 +106,9 @@
 			dependencies = (
 			);
 			name = StoreApp;
+			packageProductDependencies = (
+				CE3BB9112B316201006AEB90 /* Netswift */,
+			);
 			productName = StoreApp;
 			productReference = CE3BB8FF2B3160BF006AEB90 /* StoreApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,9 @@
 				Base,
 			);
 			mainGroup = CE3BB8F62B3160BF006AEB90;
+			packageReferences = (
+				CE3BB9102B316201006AEB90 /* XCRemoteSwiftPackageReference "Netswift" */,
+			);
 			productRefGroup = CE3BB9002B3160BF006AEB90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3BB9052B3160BF006AEB90 /* ContentView.swift in Sources */,
-				CE3BB9032B3160BF006AEB90 /* StoreAppApp.swift in Sources */,
+				CE3BB91A2B3162A7006AEB90 /* HeaderView.swift in Sources */,
+				CE3BB91E2B3162C8006AEB90 /* CategoryCardView.swift in Sources */,
+				CE3BB9142B316271006AEB90 /* DetailPageView.swift in Sources */,
+				CE3BB9162B31628A006AEB90 /* MainView.swift in Sources */,
+				CE3BB9222B3162EB006AEB90 /* ProductModel.swift in Sources */,
+				CE3BB9032B3160BF006AEB90 /* StoreApp.swift in Sources */,
+				CE3BB9182B31629A006AEB90 /* MainViewModel.swift in Sources */,
+				CE3BB9202B3162D8006AEB90 /* ProductCardView.swift in Sources */,
+				CE3BB91C2B3162BB006AEB90 /* CardBalanceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE3BB9102B316201006AEB90 /* XCRemoteSwiftPackageReference "Netswift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MrSkwiggs/Netswift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE3BB9112B316201006AEB90 /* Netswift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE3BB9102B316201006AEB90 /* XCRemoteSwiftPackageReference "Netswift" */;
+			productName = Netswift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE3BB8F72B3160BF006AEB90 /* Project object */;
 }
